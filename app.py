@@ -333,4 +333,4 @@ with col_e1:
     csv = df.to_csv(index=False).encode()
     st.download_button("⬇ Export Cashflow CSV", csv, "well_economics.csv", "text/csv")
 
-st.caption("Built with petropt · Streamlit · Plotly | Portfolio by [your name] · Methodology: Arps (1945), standard WI/NRI/Severance framework")
+st.caption("Built with petropt · Streamlit · Plotly | Portfolio by [Juang Bhakti H] · Methodology: Arps (1945), standard WI/NRI/Severance framework")
